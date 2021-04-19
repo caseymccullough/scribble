@@ -1,0 +1,9 @@
+<h2>Comments <a href="">+</a></h2>
+
+<ul>
+    {% for comment in comments %}
+        <li>
+            {{ comment.body}} {{comment.post}}
+        </li> 
+    {% endfor %}
+</ul>
